@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+    min-height: 100vh;
+    background-image: url('download\ \(3\).jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100;0,300;0,500;1,400&family=Sono:wght@600&display=swap');
+    font-family: sans-serif;
+}
+
+
+.nome {
+    margin-top: 15px;
+
+    color: rgb(255, 255, 255);
+}
+
+.horizontal {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    display: inline;
+
+}
+
+.horizontal li:hover span {
+    background-color: rgb(3, 230, 22);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.horizontal li::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.6s ease;
+}
+
+.horizontal li {
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: relative;
+    font-size: large;
+    margin-top: 15px;
+}
+
+.horizontal li:hover::after {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    background-color: #2e252549;
+    border-radius: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+}
+
+.esquerda {
+    flex: 1;
+
+}
+
+.direita {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.texto1 {
+    color: #ffffff;
+    text-align: center;
+
+
+}
+.simbols{
+    color: #ffffff;
+    text-align: center;
+    font-size:xx-large;
+    border-radius: 15px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.simbols i{
+    display: inline-block;
+    position: relative;
+    color: rgb(252, 252, 252);
+}
+.andraus{
+    color: #f00668;
+}
+section {
+    height: 100vh;
+    padding: 50px;
+  }
+  .seçao{
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+.no-scroll-behavior {
+    scroll-behavior: auto;
+  }
+.sobremimparagrafo{
+    color: white;
+    font-size: larger;
+    letter-spacing: 2px;
+ }
+
+ .proj2{
+    width: 200px;
+    height: 200px;
+    border-color: white;
+    border-radius: 15px;
+    padding: 3px;
+    border: solid white;
+    margin-right: 10px;
+ }
+ .pprojeto{
+    text-align: right;
+    color: white;
+    font-size: larger;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 600px;
+ }
