@@ -3,7 +3,7 @@ body {
     padding: 0;
    
     min-height: 100vh;
-    background-image: url('download\ \(3\).jpg');
+    background-image: url('pp.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -15,7 +15,6 @@ body {
 
 .nome {
     margin-top: 15px;
-
     color: rgb(255, 255, 255);
 }
 
@@ -144,4 +143,27 @@ a {
     position: absolute;
     margin-top: -200px;
     margin-left: 600px;
+ }
+ .hablidadejpg{
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 200px;
+ }
+ .jobspresso{
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 700px;
+    border: solid #ffffff;
+ }
+ footer{
+    background-color: #0000003b;
+    font-size: larger;
+    color: #fafafa;
+    
  }
